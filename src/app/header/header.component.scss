@@ -1,0 +1,142 @@
+
+.photoShape{
+    display: flex;
+    position: absolute;
+    top: 379px;
+    width: 100%;
+    height: 1010px;
+
+    img{
+        width: 100vw;
+    }
+}
+
+.photo{
+    display: flex;
+    position: absolute;
+    top: 100px;
+    left: 47px;
+
+    img{
+    max-width: 646px;
+    max-height: 705px;
+    }
+}
+
+.photoShadow{
+    display: flex;
+    position: absolute;
+    left: -130px;
+    top: 140px;
+}
+
+
+.headline{
+    display: flex;
+    position: absolute;
+    top: 297px;
+    right: 100px;
+    align-items: center;
+}
+
+.leftHeadline{
+    color: white;
+    rotate: 270deg;
+    font-size: 64px;
+    white-space: nowrap;
+    position: relative;
+    left: 9px;
+}
+
+.headlineName{
+    color: white;
+    font-size: 90px;
+    font-weight: 700;
+    white-space: nowrap;
+    position: relative;
+    top: 9px;
+}
+
+.headlineJob{
+    color: rgba(151, 71, 255, 1);
+    position: relative;
+    top: -23px;
+    font-size: 58px;
+    font-weight: 400;
+}
+
+
+.letsTalkButton {
+    position: absolute;
+    top: 540px;
+    right: 383px;
+    min-width: 168px;
+    min-height: 58px;
+    cursor: pointer;
+    transition: transform 325ms ease-in-out; 
+}
+
+.letsTalkButton:hover {
+    transform: scale(1.1);
+}
+
+.letsTalkButton a {
+    padding: 15px 30px;
+    border-radius: 10px;
+    background-color: rgba(112, 230, 28, 1);
+    color: white;
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.letsTalkButton a:hover {
+    background-color: rgba(151, 71, 255, 1);
+}
+
+.contactHeadline{
+    display: flex;
+    position: relative;
+    top: 723px;
+    align-items: center;
+    gap: 42px;
+
+    a{
+        text-decoration: none;
+        color: white;
+        font-size: 23px;
+        font-weight: 400;
+
+        &:hover{
+            color: rgba(112, 230, 28, 1);
+        }
+    }
+}
+
+
+.contactIcon{
+    display: flex;
+
+    &:hover{
+        scale: 1.2;
+    }
+}
+
+.scrollDownContainer{
+    display: flex;
+    position: absolute;
+    right: 35px;
+    rotate: 90deg;
+    color: white;
+    top: 786px;
+    align-items: center;
+    flex-direction: row;
+    font-size: 23px;
+    line-height: 27px;
+
+    img{
+        rotate: 270deg;
+    }
+}
+
