@@ -1,4 +1,9 @@
 
+.headerContainer{
+    display: flex;
+    height: 900px;
+}
+
 .photoShape{
     display: flex;
     position: absolute;
@@ -98,7 +103,7 @@
 .contactHeadline{
     display: flex;
     position: relative;
-    top: 723px;
+    top: 300px;
     align-items: center;
     gap: 42px;
 
@@ -129,14 +134,47 @@
     right: 35px;
     rotate: 90deg;
     color: white;
-    top: 786px;
+    top: 793px;
     align-items: center;
     flex-direction: row;
     font-size: 23px;
     line-height: 27px;
+    z-index: 3;
+    cursor: default;
+
+    &:hover {
+        animation: jumpIcon 00.30s ease  normal forwards;
+    }
 
     img{
         rotate: 270deg;
     }
 }
 
+@keyframes jumpIcon {
+    0% {
+        animation-timing-function: ease-in;
+        transform: translateX(-12px);
+    }
+
+    40% {
+        animation-timing-function: ease-in;
+        transform: translateX(-8px);
+    }
+
+    60% {
+        animation-timing-function: ease-in;
+        transform: translateX(-5px);
+    }
+
+    80% {
+        animation-timing-function: ease-in;
+        transform: translateX(-2px);
+    }
+
+
+    100% {
+        animation-timing-function: ease-out;
+        transform: translateX(0px);
+    }
+}

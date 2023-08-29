@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import * as AOS from "aos";
 import { Router } from '@angular/router';
 
 @Component({
@@ -6,6 +7,12 @@ import { Router } from '@angular/router';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
-  constructor(public router: Router) {}
+export class AppComponent implements OnInit {
+
+
+  /** loads the AOS library on init */
+  ngOnInit() {
+    AOS.init({
+    });
+  }
 }

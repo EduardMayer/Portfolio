@@ -1,1 +1,17 @@
-<p>myskills works!</p>
+<div class="skillContainer">
+    <div class="backgroundShadowSkill"><img src="/assets/img/green1.png" alt="" srcset=""></div>
+    <div class="skillIconContainer">
+        <div  data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000" class="skillIconBox" *ngFor="let icon of skillIcon"><img src="/assets/img/{{icon}}.png" alt="{{icon}}"
+                srcset=""><span>{{icon}}</span></div>
+    </div>
+    <div class="skillTextContainer">
+        <div class="skillHeadline">
+            <span><h2>My skills</h2></span>
+            <div class="skillBorderRight"></div>
+        </div>
+        <span><p>I have gained experience in building projects with various front end technologies and concepts.</p></span>
+        <div class="letsTalkButton"><a href="">Get in touch</a></div>
+    </div>
+    

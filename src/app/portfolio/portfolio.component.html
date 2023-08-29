@@ -1,1 +1,46 @@
-<p>portfolio works!</p>
+<div class="portfolioHeadlineContainer">
+    <span class="portfolioHeadlineBox">
+        <div class="skillBorderLeft"></div>
+        <span><h2>Portfolio</h2></span>
+        <div class="skillBorderRight"></div>
+    </span>
+    
+    
+</div>
+<span class="headlineTextContainer">
+    <p>This page is a sample of my work - please feel free to try them out.</p>
+</span>
+
+
+<div class="all-projects-container">
+    <div class="portfolioBg"><img src="assets/img/portfolioBg.png"></div>
+    <div class="secondPortfolioBg"><img src="assets/img/secondPortfolioBg.png"></div>
+    <div *ngFor="let project of projects; let i = index">
+        <div data-aos="fade-down" data-aos-easing="linear" class="portfolio-project-container"
+            [ngStyle]="{ 'flex-direction': i % 2 !== 0 ? 'row-reverse' : 'row' }">
+            <div class="project-image-container"
+                [ngStyle]="{ 'justify-content': i % 2 !== 0 ? 'flex-end' : 'flex-start' }"><img
+                    src="assets/img/{{ project.image }}"></div>
+            <div class="project-text-container">
+                <div class="project-text" [ngStyle]="{ 'text-align': i % 2 !== 0 ? 'end' : 'start' }">
+                    <span class="project-name">{{ project.name }}</span>
+                    <span class="project-languages">{{ project.languages }}</span>
+                    <span class="project-description">{{ project.description }}</span>
+                </div>
+                <div class="project-buttons-container"
+                    [ngStyle]="{ 'justify-content': i % 2 !== 0 ? 'flex-end' : 'flex-start' }">
+                    <div class="live-test" [ngStyle]="{ 'display': project.name === 'My website' ? 'none' : 'flex' }">
+                        <a href="{{ project.url }}" target="_blank">
+                            <span>Live test</span>
+                        </a>
+                    </div>
+                    <div class="github">
+                        <a href="{{ project.github }}" target="_blank">
+                            <span>Github</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

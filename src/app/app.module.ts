@@ -8,8 +8,6 @@ import { HeaderComponent } from './header/header.component';
 import { AboutmeComponent } from './aboutme/aboutme.component';
 import { MyskillsComponent } from './myskills/myskills.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
-import { ProjectJoinComponent } from './project-join/project-join.component';
-import { ProjectElPolloLocoComponent } from './project-el-pollo-loco/project-el-pollo-loco.component';
 import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
 
@@ -21,8 +19,6 @@ import { FooterComponent } from './footer/footer.component';
     AboutmeComponent,
     MyskillsComponent,
     PortfolioComponent,
-    ProjectJoinComponent,
-    ProjectElPolloLocoComponent,
     ContactComponent,
     FooterComponent
   ],

@@ -6,5 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./myskills.component.scss']
 })
 export class MyskillsComponent {
-
+skillIcon =[
+  "Angular",
+  "Rest-Api",
+  "CSS",
+  "Firebase",
+  "GIT",
+  "HTML",
+  "JavaScript",
+  "Scrum",
+  "TypeScript",
+  "Material Design",
+];
 }
