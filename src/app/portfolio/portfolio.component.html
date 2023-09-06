@@ -1,4 +1,4 @@
-<div class="portfolioHeadlineContainer" id="myPortfolio">
+<div class="portfolioHeadlineContainer" id="portfolio">
     <span class="portfolioHeadlineBox">
         <div class="skillBorderLeft"></div>
         <span>
@@ -13,9 +13,9 @@
 </span>
 
 
-<div class="all-projects-container">
-    <div class="portfolioBackground"><img src="/assets/img/purple2.png"></div>
-    <div class="secondPortfolioBackground"><img src="/assets/img/green2.png"></div>
+<div class="all-projects-container" >
+    <div class="portfolioBackground"><img src="assets/img/purple2.png"></div>
+    <div class="secondPortfolioBackground"><img src="assets/img/green2.png"></div>
     <div *ngFor="let project of projects; let i = index">
         <div [ngStyle]="{ 'flex-direction': i % 2 !== 0 ? 'row-reverse' : 'row' }"
             [attr.data-aos]="i % 2 !== 0 ? 'fade-left' : 'fade-right'" class="portfolio-project-container">
