@@ -24,6 +24,14 @@ export class PortfolioComponent {
       "github": "https://github.com/EduardMayer/El-Pollo-Loco"
     },
     {
+      "name": "Ring of Fire",
+      "languages": "Angular | TypeScript | HTML | SCSS | Firebase",
+      "description": "A multiplayer game of the famous card game, which saves all data in Firebase.",
+      "image": "RingOfFire.png",
+      "url": "https://eduard-mayer.developerakademie.net/ringoffire/",
+      "github": "https://github.com/EduardMayer/ringoffire"
+    },
+    {
       "name": "Pokédex",
       "languages": "JavaScript | HTML | CSS | API",
       "description": "A simple library based on the PokéAPI that provides and catalogs Pokémon information.",
@@ -31,13 +39,5 @@ export class PortfolioComponent {
       "url": "https://eduard-mayer.developerakademie.net/Pokedex/",
       "github": "https://github.com/EduardMayer/Pokedex"
     },
-    {
-      "name": "Ring of Fire",
-      "languages": "Angular | TypeScript | HTML | SCSS | Firebase",
-      "description": "A multiplayer game of the famous card game, which saves all data in Firebase.",
-      "image": "RingOfFire.png",
-      "url": "https://eduard-mayer.developerakademie.net/ringoffire/",
-      "github": "https://github.com/EduardMayer/ringoffire"
-    }
   ];
 }

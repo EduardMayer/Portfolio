@@ -1,9 +1,14 @@
 .navbarContainer{
     display: flex;
+    position: fixed;
+    height: 109px;
+    width: 100%;
     background-color: rgb(20, 29, 47);
     align-items: center;
     justify-content: space-between;
     padding: 37px 100px;
+    box-sizing: border-box;
+    z-index: 4;
 
     img{
         height: 40px;
@@ -16,9 +21,6 @@
     justify-content: center;
     align-items: flex-start;
     gap: 29px;
-
-    
-    
 
     a {
         color: rgba(255, 255, 255, 1);

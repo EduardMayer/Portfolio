@@ -1,0 +1,72 @@
+.footerContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 291px;
+    border-top: 4px solid rgba(112, 230, 28, 1);
+    color: white;
+    background-color: rgba(20, 29, 47, 1);
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+.footerLineContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    img{
+        height: 40px;
+        width: 65px;
+        cursor: pointer;
+    }
+
+    a{
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+        position: relative;
+
+        &::before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            background-color: rgba(151, 71, 255, 1);
+            bottom: 0px; /* Positionieren Sie den Unterstrich unterhalb des Texts */
+            left: 0;
+            transform: scaleX(0); /* Starten Sie ohne Breite (unsichtbar) */
+            transform-origin: left center;
+            transition: transform 0.30s ease-in-out;
+          }
+        
+          &:hover {
+            color: rgba(112, 230, 28, 1);
+            &::before {
+              transform: scaleX(1); /* Unterstrich von links nach rechts ausdehnen */
+            }
+          }
+    }
+}
+
+.copyRightContainer{
+    display: flex;
+    p {
+       font-size: 23px; 
+    }
+}
+
+.contactFooter{
+    display: flex;
+    gap: 42px;
+}
+
+.contactIcon{
+    display: flex;
+
+    &:hover{
+        scale: 1.2;
+    }
+}

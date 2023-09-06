@@ -1,0 +1,280 @@
+.contactContainer {
+    color: white;
+    margin-bottom: 90px;
+}
+
+.headlineBorder {
+    display: flex;
+    width: 50px;
+    border: 2px solid rgba(151, 71, 255, 1);
+}
+
+.headline {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+
+    h2 {
+        margin: 0;
+        font-size: 90px;
+        line-height: 108px;
+    }
+}
+
+.headlineTextContactContainer {
+    display: flex;
+    margin-top: 85px;
+    gap: 150px;
+    margin-left: 100px;
+    margin-right: 125px;
+    justify-content: space-between;
+
+    h3 {
+        margin: 0 0 35px 0;
+    }
+
+    p {
+        margin: 0 0 23px 0;
+    }
+}
+
+.contactBackgroundShadow {
+    display: flex;
+    position: absolute;
+    overflow: hidden;
+    z-index: -1;
+    opacity: 0.8;
+    width: 747px;
+    height: 100%;
+    left: 0px;
+
+    img {
+        position: absolute;
+    }
+}
+
+.headlineText {
+    width: 473px;
+}
+
+.contactBox {
+    display: flex;
+    flex-direction: column;
+    width: 617px;
+    height: 465px;
+    align-items: center;
+    }
+
+
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.sendMessageButton {
+    display: flex;
+    justify-content: center;
+    transition: transform 325ms ease-in-out;
+    padding: 15px 30px;
+    border-radius: 10px;
+    background-color: rgba(112, 230, 28, 1);
+    color: white;
+    text-decoration: none;
+    font-size: 23px;
+    width: 241px;
+    height: 58px;
+    border: none;
+    cursor: pointer;
+
+    &:hover {
+        transform: scale(1.1);
+        background-color: rgba(151, 71, 255, 1);
+    }
+}
+
+.sendMessageButton:disabled,
+.sendMessageButton.disabled {
+  cursor: not-allowed; /* Ändert den Cursor */
+  background-color: rgba(128, 128, 128, 0.5); /* Ändert die Hintergrundfarbe */
+  color: rgba(255, 255, 255, 0.7); /* Ändert die Textfarbe */
+  border: 1px solid rgba(128, 128, 128, 0.5); /* Ändert den Border-Stil */
+  transform: none; /* Deaktiviert transform: scale */
+}
+
+/* CSS für Hover-Effekte */
+.sendMessageButton:not(:disabled):hover {
+  /* Hier können Sie den Hover-Effekt für nicht deaktivierte Buttons definieren */
+  transform: scale(1.1);
+  background-color: rgba(151, 71, 255, 1); /* Beispiel-Hover-Farbe */
+}
+
+
+.required-informations {
+    display: flex;
+    padding-top: 10px;
+    color: red;
+}
+
+.errorImage {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    z-index: 1;
+}
+
+.confirmImage {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    z-index: 1;
+}
+
+.form-container{
+    width: 100%;
+
+    Input {
+        width: 100%;
+        border: 1px solid rgba(151, 71, 255, 1);
+        border-radius: 10px;
+        color: white;
+        padding: 15px 25px;
+        background-color: rgba(20, 29, 47, 1);
+        box-sizing: border-box;
+        cursor: pointer;
+
+        &::placeholder {
+            font-family: "Poppins", sans-serif;
+            font-size: 16px;
+            color: white;
+        }
+
+        &:focus{
+            outline: none;
+        }
+
+        &:hover {
+            border: 1px solid rgba(112, 230, 28, 1);
+        }
+}
+
+.inputContainer{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin-bottom: 35px;
+}
+
+
+textarea {
+    width: 100%;
+    height: 170px;
+    border: 1px solid rgba(151, 71, 255, 1);
+    border-radius: 10px;
+    color: white;
+    padding: 15px 25px;
+    background-color: rgba(20, 29, 47, 1);
+    box-sizing: border-box;
+    cursor: pointer;
+    
+    &::-webkit-scrollbar {
+        width: 7px;
+        
+    }
+
+    &::-webkit-scrollbar-track {
+        background: rgb(255,255,255);
+        
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: rgb(29,39,60);
+        
+    }
+
+    &::-webkit-scrollbar-thumb:hover {
+        background: rgb(48, 69, 110);
+    }
+
+    &::placeholder {
+        font-family: "Poppins", sans-serif;
+        font-size: 16px;
+        color: white;
+    }
+
+    &:focus{
+        outline: none;
+    }
+
+    &:hover {
+        border: 1px solid rgba(112, 230, 28, 1);
+    }
+}
+}
+
+.green-border {
+    border: 1px solid rgba(112, 230, 28, 1)  !important;
+}
+
+.red-border {
+    border: 1px solid red !important;
+}
+
+.goUpContainer{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+    margin-top: 55px;
+
+    img {
+
+        &:hover {
+            cursor: pointer;
+            content: url('/assets/img/goupgreen.png');
+        }
+    }
+}
+
+
+.confirmation-message-in {
+    position: fixed;
+    z-index: 2;
+    left: calc(50% - 150px);
+    bottom: 30px;
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #FA7902;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    animation: confirmationMessageIn 0.5s forwards;
+}
+
+.confirmation-error-message-in {
+    background-color: #FF4747;
+}
+
+.confirmation-message-out {
+    animation: confirmationMessageOut 0.5s forwards;
+}
+
+@keyframes confirmationMessageIn {
+    from {
+        bottom: -100px;
+    }
+
+    to {
+        bottom: 30px;
+    }
+}
+
+@keyframes confirmationMessageOut {
+    from {
+        bottom: 30px;
+    }
+
+    to {
+        bottom: -100px;
+    }
+}
