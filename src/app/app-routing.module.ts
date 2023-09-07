@@ -5,6 +5,7 @@ import { MyskillsComponent } from './myskills/myskills.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { HeaderComponent } from './header/header.component';
 import { ContactComponent } from './contact/contact.component';
+import { ImpressumComponent } from './impressum/impressum.component';
 
 
 const routes: Routes = [
@@ -13,6 +14,7 @@ const routes: Routes = [
   { path: 'MyskillsComponent', component: MyskillsComponent }, 
   { path: 'PortfolioComponent', component: PortfolioComponent },
   { path: 'PortfolioComponent', component: ContactComponent },
+  { path: 'impressum', component: ImpressumComponent },
 ];
 
 @NgModule({

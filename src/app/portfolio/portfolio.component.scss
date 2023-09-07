@@ -44,7 +44,7 @@
     }
 }
 
-.all-projects-container {
+.allProjectsContainer {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -79,7 +79,7 @@
     }
 }
 
-.portfolio-project-container {
+.portfolioProjectContainer {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -88,7 +88,7 @@
     z-index: 3;
 }
 
-.project-image-container {
+.projectImageContainer {
     width: 620px;
     height: 340px;
     display: flex;
@@ -100,31 +100,31 @@
     }
 }
 
-.project-text-container {
+.projectTextContainer {
     display: flex;
     flex-direction: column;
     width: 513px;
     gap: 35px;
 }
 
-.project-text {
+.projectText {
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
 
-.project-name {
+.projectName {
     font-size: 32px;
     font-weight: 700;
     color: rgba(151, 71, 255, 1);
 }
 
-.project-languages {
+.projectLanguages {
     font-size: 23px;
     color: rgba(112, 230, 28, 1);
 }
 
-.project-buttons-container {
+.projectButtonsContainer {
     display: flex;
     gap: 86px;
 
@@ -138,7 +138,7 @@
         color: white;
     }
 
-    .live-test {
+    .liveTest {
         width: 152px;
         height: 58px;
         border-radius: 10px;
@@ -170,36 +170,36 @@
 }
 
 @media (max-width: 1375px) {
-    .project-text-container {
+    .projectTextContainer {
         width: 380px;
     }
 
-    .project-buttons-container {
+    .projectButtonsContainer {
         gap: 50px;
     }
 
-    .project-image-container {
+    .projectImageContainer {
         width: 490px;
     }
 }
 
 @media (max-width: 1200px) {
-    .project-text-container {
+    .projectTextContainer {
         width: 330px;
     }
 
-    .project-buttons-container {
+    .projectButtonsContainer {
         gap: 30px;
     }
 
-    .project-image-container {
+    .projectImageContainer {
         width: 430px;
         height: unset;
     }
 }
 
 @media (orientation: portrait) {
-    .portfolio-project-container {
+    .portfolioProjectContainer {
         flex-direction: column !important;
         gap: 35px;
     }
@@ -208,7 +208,7 @@
         left: -50px;
     }
 
-    .project-image-container {
+    .projectImageContainer {
         justify-content: center !important;
         height: 339px;
 
@@ -217,11 +217,11 @@
         }
     }
 
-    .all-projects-container {
+    .allProjectsContainer {
         gap: 80px;
     }
 
-    .portfolio-headline-container {
+    .portfolioHeadlineContainer {
         margin-top: 0;
         gap: 10px;
         margin-right: 30px;
@@ -232,41 +232,34 @@
         }
     }
 
-    .portfolio-headline-line-left {
-        width: 20px;
-    }
-
-    .portfolio-headline-line-right {
-        width: calc(50% - 97px - 10px);
-    }
-
-    .portfolio-text {
+    
+    .portfolioText {
         margin: 25px 25px 85px;
     }
 
-    .project-text-container {
+    .projectTextContainer {
         width: 340px;
         justify-content: center !important;
         align-items: center;
     }
 
-    .project-buttons-container {
+    .projectButtonsContainer {
         width: 340px;
         justify-content: space-around !important;
     }
 
-    .project-text {
+    .projectText {
         align-items: center;
         text-align: center !important;
     }
 
-    .portfolio-project-container {
+    .portfolioProjectContainer {
         margin: 0 25px;
     }
 }
 
 @media (orientation: portrait) and (max-width: 700px) {
-    .project-image-container {
+    .projectImageContainer {
         width: 100%;
         height: auto;
     }
@@ -284,11 +277,11 @@
         bottom: -300px;
     }
 
-    .project-text-container {
+    .projectTextContainer {
         width: 340px;
     }
 
-    .project-buttons-container {
+    .projectButtonsContainer {
         gap: 50px;
 
         .live-test {
@@ -304,7 +297,7 @@
 }
 
 @media (orientation: landscape) and (max-width: 1050px) {
-    .portfolio-project-container {
+    .portfolioProjectContainer {
         margin: 0 25px;
     }
 
@@ -323,9 +316,3 @@
     }
 }
 
-@media (min-width: 1921px) {
-    .portfolio-headline-line-right {
-        right: calc(50% - 960px);
-        width: calc(960px - 194.5px - 36px);
-    }
-}
