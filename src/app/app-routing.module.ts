@@ -10,10 +10,10 @@ import { ImpressumComponent } from './impressum/impressum.component';
 
 const routes: Routes = [
   { path: '', component: HeaderComponent },
-  { path: 'AboutmeComponent', component: AboutmeComponent },
-  { path: 'MyskillsComponent', component: MyskillsComponent }, 
-  { path: 'PortfolioComponent', component: PortfolioComponent },
-  { path: 'PortfolioComponent', component: ContactComponent },
+  { path: 'Aboutme', component: AboutmeComponent },
+  { path: 'Myskills', component: MyskillsComponent }, 
+  { path: 'Portfolio', component: PortfolioComponent },
+  { path: 'Contact', component: ContactComponent },
   { path: 'impressum', component: ImpressumComponent },
 ];
 

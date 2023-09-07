@@ -8,7 +8,7 @@ import * as AOS from 'aos';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-  constructor(private router: Router) {}
+  constructor(public router: Router) {}
 
   /** loads the AOS library on init */
   ngOnInit() {
@@ -28,7 +28,6 @@ export class AppComponent implements OnInit {
       '/MyskillsComponent': 'mySkills',
       '/PortfolioComponent': 'portfolio',
       '/ContactComponent': 'contact',
-      // Fügen Sie hier weitere Routen-Element-ID-Paare hinzu
     };
 
     const elementId = elementIdMap[route];
