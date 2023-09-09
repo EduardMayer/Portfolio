@@ -1,20 +1,14 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AboutmeComponent } from './aboutme/aboutme.component';
-import { MyskillsComponent } from './myskills/myskills.component';
-import { PortfolioComponent } from './portfolio/portfolio.component';
-import { HeaderComponent } from './header/header.component';
-import { ContactComponent } from './contact/contact.component';
 import { ImpressumComponent } from './impressum/impressum.component';
+import { MainComponent } from './main/main.component';
+import { PrivacyComponent } from './privacy/privacy.component';
 
 
 const routes: Routes = [
-  { path: '', component: HeaderComponent },
-  { path: 'Aboutme', component: AboutmeComponent },
-  { path: 'Myskills', component: MyskillsComponent }, 
-  { path: 'Portfolio', component: PortfolioComponent },
-  { path: 'Contact', component: ContactComponent },
+  { path: '', component: MainComponent },
   { path: 'impressum', component: ImpressumComponent },
+  { path: 'privacy-policy', component: PrivacyComponent },
 ];
 
 @NgModule({
