@@ -1,7 +1,6 @@
 .contactContainer {
     color: white;
-    margin-bottom: 90px;
-    padding-top: 120px;
+    padding-top: 100px;
 }
 
 
@@ -28,10 +27,11 @@
     margin-top: 85px;
     gap: 150px;
     margin-left: 100px;
-    margin-right: 125px;
+    margin-right: 100px;
     justify-content: space-between;
 
     h3 {
+        font-size: 32px;
         margin: 0 0 35px 0;
     }
 
@@ -46,13 +46,8 @@
     overflow: hidden;
     z-index: -1;
     opacity: 0.8;
-    width: 747px;
-    height: 100%;
+    width: 100vw;
     left: 0px;
-
-    img {
-        position: absolute;
-    }
 }
 
 .headlineText {
@@ -279,4 +274,53 @@ textarea {
     to {
         bottom: -100px;
     }
+}
+
+@media screen and (max-width: 767px) {
+    .headlineTextContactContainer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    gap: 45px
+    
+    }
+
+    .contactBox{
+        width: auto;
+    }
+
+    .goUpContainer{
+        margin-right: 25px;
+        margin-top: 75px;
+        margin-bottom: 45px;
+    }
+
+    .headlineText{
+      width: auto;
+    }
+}
+
+@media screen and (max-width: 667px) {
+    .headline{
+        gap: 9px;
+        h2{
+            font-size: 45px;
+        }
+    }
+    .headlineBorder{
+        width: 20px;
+    }
+    .headlineTex{
+        h3{
+            font-size: 23px;
+        }
+    }
+
+    .contactBackgroundShadow{
+        
+        top: 6430px;
+       
+  }
 }

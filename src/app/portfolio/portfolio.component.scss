@@ -37,6 +37,7 @@
     justify-content: center;
     margin-top: 30px;
     margin-bottom: 116px;
+    text-align: center;
     
     p {
         font-size: 16px;
@@ -169,7 +170,7 @@
     }
 }
 
-@media (max-width: 1375px) {
+@media screen and (max-width: 1375px) {
     .projectTextContainer {
         width: 380px;
     }
@@ -183,7 +184,7 @@
     }
 }
 
-@media (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
     .projectTextContainer {
         width: 330px;
     }
@@ -258,7 +259,53 @@
     }
 }
 
-@media (orientation: portrait) and (max-width: 700px) {
+
+@media screen  and (max-width: 1050px) {
+    .portfolioProjectContainer {
+        margin: 0 25px;
+    }
+
+    .portfolioBg {
+        height: 440px;
+        left: -50px;
+
+        img {
+            opacity: 0.2;
+        }
+    }
+
+    .secondPortfolioBg {
+        height: 600px;
+        bottom: -300px;
+    }
+}
+
+@media screen and (max-width: 667px) {
+    .portfolioHeadlineContainer{
+        width: 100%;
+        align-items: flex-end;
+    }
+
+    .skillBorderLeft{
+        width: 20px;
+    }
+    .skillBorderRight{
+        width: 75px;
+    }
+
+    .portfolioHeadlineBox{
+        margin-right: 90px;
+        gap: 9px;
+
+        h2{
+            font-size: 45px;
+            margin-right: 0px;
+        }
+    }
+
+    .headlineTextContainer{
+        margin: 25px 25px 35px 25px;
+    }
     .projectImageContainer {
         width: 100%;
         height: auto;
@@ -295,24 +342,3 @@
         }
     }
 }
-
-@media (orientation: landscape) and (max-width: 1050px) {
-    .portfolioProjectContainer {
-        margin: 0 25px;
-    }
-
-    .portfolioBg {
-        height: 440px;
-        left: -50px;
-
-        img {
-            opacity: 0.2;
-        }
-    }
-
-    .secondPortfolioBg {
-        height: 600px;
-        bottom: -300px;
-    }
-}
-
