@@ -10,6 +10,7 @@
     top: 379px;
     width: 100vw;
     height: 1010px;
+    overflow: hidden;
 
     img {
         width: 100%;
@@ -33,6 +34,7 @@
     position: absolute;
     left: -130px;
     top: 140px;
+    overflow: hidden;
 }
 
 .headline {

@@ -8,9 +8,12 @@
 }
 
 .backgroundShadowSkill {
+  display: flex;
   position: absolute;
   left: -270px;
-  rotate: 30deg;
+  width: 100%;
+  opacity: 0.5;
+  
 }
 
 .skillIconContainer {
@@ -112,6 +115,7 @@
   min-height: 58px;
   cursor: pointer;
   transition: transform 325ms ease-in-out;
+  z-index: 5;
 }
 
 .letsTalkButton:hover {
@@ -171,6 +175,7 @@
     width: 100%;
     cursor: pointer;
     justify-content: center;
+    z-index: 4;
   }
   
 

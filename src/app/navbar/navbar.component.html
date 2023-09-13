@@ -7,15 +7,21 @@
         <a href="#mySkills">Skills</a>
         <a href="#portfolio">Portfolio</a>
     </div>
-    <div class="burgerMenu">
-        <div class="burgerIcon" (click)="toggleNav()"><img src="assets/img/burger.png" alt="" srcset=""></div>
-    
+    <input type="checkbox" id="checkbox3" class="checkbox3 visuallyHidden">
+    <label for="checkbox3" class="burgerIcon">
+        <div class="hamburger hamburger3" (click)="toggleNav()">
+            <span class="bar bar1"></span>
+            <span class="bar bar2"></span>
+            <span class="bar bar3"></span>
+            <span class="bar bar4"></span>
+        </div>
+    </label>
+
     </div>
-    
-</div>
-<div class="burgerLinks">
-    <a href="#aboutMe" (click)="toggleNav()">About me</a>
-    <a href="#mySkills" (click)="toggleNav()">Skills</a>
-    <a href="#portfolio" (click)="toggleNav()">Portfolio</a>
-    <a href="#contact" (click)="toggleNav()">Contact</a>
-</div>
+    <div class="burgerLinks" [ngClass]="{'open': isMenuOpen}">
+      <a href="#aboutMe" (click)="toggleNav()">About me</a>
+      <a href="#mySkills" (click)="toggleNav()">Skills</a>
+      <a href="#portfolio" (click)="toggleNav()">Portfolio</a>
+      <a href="#contact" (click)="toggleNav()">Contact</a>
+    </div>
+ 

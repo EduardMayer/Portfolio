@@ -6,11 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./navbar.component.scss']
 })
 export class NavbarComponent {
+  isMenuOpen: boolean = false;
+  active = false;
 
   toggleNav() {
+    this.isMenuOpen = !this.isMenuOpen;
     const burgerLinks = document.querySelector('.burgerLinks') as HTMLElement | null;
     if (burgerLinks) {
       burgerLinks.classList.toggle('show');
     }
   }
+
+  
 }

@@ -52,6 +52,7 @@
     gap: 150px;
     color: white;
     padding-bottom: 120px;
+    overflow: hidden;
 }
 
 .portfolioBackground {
@@ -61,6 +62,7 @@
     left: -80px;
     height: 800px;
     opacity: 0.4;
+    
 }
 
 .secondPortfolioBackground {
@@ -73,6 +75,7 @@
     height: 951px;
     width: 429px;
     opacity: 0.4;
+    
 
     img {
         position: absolute;

@@ -12,7 +12,7 @@ export class PortfolioComponent {
       "languages": "JavaScript | HTML | CSS",
       "description": "A task mananger ispired by the Kanban system. Create and organize tasks using drag and drop functions, assign users and categories.",
       "image": "join.png",
-      "url": "https://eduard-mayer.developerakademie.net/Join/",
+      "url": "https://mayer-eduard.de/Join/",
       "github": "https://github.com/EduardMayer/Join"
     },
     {
@@ -20,7 +20,7 @@ export class PortfolioComponent {
       "languages": "JavaScript | HTML | CSS",
       "description": "A jump, run and throw game based on an object-oriented approach. Help Pepe find coins and Tabasco salsa to fight against the crazy hen.",
       "image": "ElPolloLoco.png",
-      "url": "https://eduard-mayer.developerakademie.net/El-Pollo-Loco/",
+      "url": "https://mayer-eduard.de/El-Pollo-Loco/",
       "github": "https://github.com/EduardMayer/El-Pollo-Loco"
     },
     {
@@ -28,7 +28,7 @@ export class PortfolioComponent {
       "languages": "Angular | TypeScript | HTML | SCSS | Firebase",
       "description": "A multiplayer game of the famous card game, which saves all data in Firebase.",
       "image": "RingOfFire.png",
-      "url": "https://eduard-mayer.developerakademie.net/ringoffire/",
+      "url": "https://mayer-eduard.de/ringoffire/",
       "github": "https://github.com/EduardMayer/ringoffire"
     },
     {
@@ -36,7 +36,7 @@ export class PortfolioComponent {
       "languages": "JavaScript | HTML | CSS | API",
       "description": "A simple library based on the PokéAPI that provides and catalogs Pokémon information.",
       "image": "pokedex.png",
-      "url": "https://eduard-mayer.developerakademie.net/Pokedex/",
+      "url": "https://mayer-eduard.de/Pokedex/",
       "github": "https://github.com/EduardMayer/Pokedex"
     },
   ];
