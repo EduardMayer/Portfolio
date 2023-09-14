@@ -43,7 +43,7 @@ export class ContactComponent {
    */
   async sendData(formData: FormData) {
     try {
-      await fetch('https://mayer-eduard.de/portfolio/send_mail/send_mail.php',
+      await fetch('https://mayer-eduard.de/send_mail/send_mail.php',
         {
           method: "post",
           body: formData
