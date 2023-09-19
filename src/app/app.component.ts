@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router, NavigationEnd } from '@angular/router';
+import {TranslateService} from '@ngx-translate/core';
 import * as AOS from 'aos';
 
 @Component({
@@ -11,7 +12,9 @@ export class AppComponent implements OnInit {
   title(title: any) {
     throw new Error('Method not implemented.');
   }
-  constructor(public router: Router) {}
+  constructor(public router: Router, translate: TranslateService) {
+     
+  }
 
   /** loads the AOS library on init */
   ngOnInit() {

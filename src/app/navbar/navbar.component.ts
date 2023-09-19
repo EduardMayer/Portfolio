@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-navbar',
@@ -8,6 +9,8 @@ import { Component } from '@angular/core';
 export class NavbarComponent {
   isMenuOpen: boolean = false;
   active = false;
+
+  constructor(public translate: TranslateService) {}
 
   toggleNav() {
     this.isMenuOpen = !this.isMenuOpen;

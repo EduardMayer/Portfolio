@@ -23,6 +23,11 @@
   align-items: flex-start;
   gap: 29px;
 
+  b{
+    color: rgba(255, 255, 255, 1);
+    font-size: 23px;
+  }
+
   a {
     color: rgba(255, 255, 255, 1);
     position: relative;
@@ -59,6 +64,11 @@
   flex-direction: column;
   transform: translateX(100%);
   transition: transform 230ms ease-in-out;
+
+  b{
+    color: rgba(255, 255, 255, 1);
+    font-size: 23px;
+  }
 }
 
 .burgerLinks.show {
