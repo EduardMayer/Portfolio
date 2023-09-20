@@ -137,6 +137,19 @@
 .letsTalkButton a:hover {
   background-color: rgba(151, 71, 255, 1);
 }
+@media screen and (min-width: 1800px) {
+.skillIconContainer{
+  margin-left: 10%;
+}
+
+.skillTextContainer{
+  margin-right: 10%;
+}
+
+.skillBorderRight{
+  width: 7%;
+}
+}
 
 @media screen and (max-width: 970px) {
   .skillContainer {

@@ -72,10 +72,10 @@
 }
 
 .letsTalkButton {
-    display: flex;
+        display: flex;
     position: absolute;
-    top: 540px;
-    right: 383px;
+    top: 225px;
+    right: 260px;
     min-width: 168px;
     min-height: 58px;
     cursor: pointer;
@@ -109,6 +109,7 @@
     align-items: center;
     gap: 42px;
     z-index: 2;
+    width: 100%;
 
 
     a {
@@ -121,6 +122,11 @@
             color: rgba(112, 230, 28, 1);
         }
     }
+}
+
+.contactBorderLine{
+    border: 2px solid rgb(151, 71, 255);
+    width: 100px;
 }
 
 .contactIconBox {
@@ -195,6 +201,31 @@
         transform: translateX(0px);
     }
 }
+@media screen and (min-width: 1800px) {
+    .photo{
+        left: 10%;
+    }
+
+    .photoShadow{
+        left: 2%;
+    }
+
+    .headline{
+        right: 9.5%;
+    }
+
+    .contactBorderLine{
+        border: 2px solid rgb(151, 71, 255);
+        width: 10%;
+    }
+
+
+    .scrollDownContainer{
+        right: 8%;
+    }
+  }
+  
+
 
 @media screen and (max-width: 1350px) {
     .headlineName {
@@ -211,8 +242,8 @@
     }
 
     .letsTalkButton {
-        top: 485px;
-        right: 280px;
+        top: 185px;
+        right: 170px;
     }
 
     .photoShape {
@@ -239,8 +270,8 @@
     }
 
     .letsTalkButton {
-        top: 455px;
-        right: 215px;
+        top: 135px;
+        right: 110px;
     }
 
     .photo {
@@ -252,6 +283,7 @@
         }
     }
 }
+
 
 
 @media screen and (max-width: 900px) {
@@ -268,8 +300,8 @@
     }
 
     .letsTalkButton {
-        top: 810px;
-        right: 0px;
+        top: 130px;
+        right: -20px;
         left: 0px;
         display: flex;
         justify-content: center;
@@ -336,7 +368,7 @@
     }
 
     .letsTalkButton {
-        top: 675px;
+        top: 120px;
     }
 
     .contactHeadline {
@@ -355,8 +387,8 @@
 @media screen and (max-width: 470px) {
 
     .contactBorderLine {
-        position: relative;
-        left: -65px;
+        
+        width: 10%;
     }
 
 }

@@ -206,6 +206,13 @@ h1 {
   display: none;
 }
 
+@media screen and (min-width: 1800px) {
+  .navbarContainer{
+    padding: 37px 10%;
+}
+}
+
+
 
 @media screen and (max-width: 767px) {
 

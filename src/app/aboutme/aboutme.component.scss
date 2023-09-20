@@ -112,6 +112,23 @@
         }
     }
 }
+@media screen and (min-width: 1800px) {
+    .aboutMePhotoContainer{
+        width: 800px;
+    }
+
+    .aboutMeContainer{
+        padding-left: 7%;
+        
+    }
+
+    .aboutMeBorderRight{
+        padding-right: 40%;
+    }
+    
+
+}
+
 
 @media screen and (max-width: 1150px) {
     .aboutMePhoto {

@@ -276,6 +276,22 @@ textarea {
     }
 }
 
+@media screen and (min-width: 1800px) {
+    .headlineBorder{
+        width: 8%;
+    }
+
+    .headlineTextContactContainer[_ngcontent-ng-c2587076993] {
+        margin-left: 10%;
+        margin-right: 10%;
+        
+    }
+
+    .goUpContainer{
+        margin-right: 10%;
+    }
+}
+
 @media screen and (max-width: 767px) {
     .headlineTextContactContainer{
     display: flex;
