@@ -216,21 +216,20 @@ textarea {
     border: 1px solid red !important;
 }
 
-.goUpContainer{
+.goUpContainer {
     display: flex;
     justify-content: flex-end;
     margin-right: 100px;
     margin-top: 55px;
+  }
 
-    img {
+  .goUpContainer svg:hover path {
+    fill: #70E61C;
+  }
 
-        &:hover {
-            cursor: pointer;
-            content: url('/assets/img/goupgreen.png');
-        }
-    }
-}
-
+  .goUpContainer svg:hover rect {
+    stroke: #70E61C;
+  }
 
 .confirmation-message-in {
     position: fixed;
