@@ -41,17 +41,7 @@ export class PortfolioComponent implements OnInit {
       "url": "https://mayer-eduard.de/ringoffire/",
       "github": "https://github.com/EduardMayer/ringoffire"
     },
-    {
-      "name": "Pokédex",
-      "languages": "JavaScript | HTML | CSS | API",
-      "translations": {
-        "en": "A simple library based on the PokéAPI that provides and catalogs Pokémon information.",
-        "de": "Eine einfache Bibliothek basierend auf der PokéAPI, die Pokémon-Informationen bereitstellt und katalogisiert."
-      },
-      "image": "pokedex.png",
-      "url": "https://mayer-eduard.de/Pokedex/",
-      "github": "https://github.com/EduardMayer/Pokedex"
-    },
+  
   ];
 
   constructor(private translate: TranslateService) {
