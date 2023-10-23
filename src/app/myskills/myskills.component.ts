@@ -9,13 +9,13 @@ export class MyskillsComponent {
 skillIcon =[
   "Angular",
   "Rest-Api",
-  "CSS",
+  "css",
   "Firebase",
   "GIT",
-  "HTML",
+  "html",
   "JavaScript",
   "Scrum",
-  "TypeScript",
+  "typescript",
   "Material Design",
 ];
 }

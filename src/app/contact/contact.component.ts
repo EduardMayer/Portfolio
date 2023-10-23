@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { FormControl, FormGroup, Validators} from '@angular/forms';
+import { FormControl, FormGroup, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-contact',
@@ -16,7 +16,7 @@ export class ContactComponent {
     emailInput: new FormControl('', [Validators.required, Validators.email]),
     messageInput: new FormControl('', [Validators.required, Validators.minLength(10)])
   });
-  
+
 
   /** takes the value of the inputfields and sends the FormData to the mail adress */
   sendMail() {
@@ -37,22 +37,36 @@ export class ContactComponent {
     this.resetContactForm();
   }
 
+
   /**
-   * sends the FormData into the php file and sends the mail, else error message
-   * @param formData = FormData with values of the inputfields
-   */
+  * Sends the provided FormData to a specified URL and handles the response.
+  * @param formData - The FormData to be sent in the POST request.
+  */
   async sendData(formData: FormData) {
     try {
-      await fetch('https://mayer-eduard.de/send_mail/send_mail.php',
-        {
-          method: "post",
-          body: formData
-        })
-    }
-    catch (e) {
+
+      const response = await fetch("https://formspree.io/f/myyqoebp", {
+        method: "POST",
+        body: formData,
+        headers: {
+          'Accept': 'application/json'
+        }
+      });
+
+      if (response.ok) {
+
+        this.confirmationMessage();
+      } else {
+
+        this.errorMessage();
+      }
+    } catch (error) {
+
       this.errorMessage();
+      console.error(error);
     }
   }
+
 
   /** display the error message after sendData error */
   errorMessage() {

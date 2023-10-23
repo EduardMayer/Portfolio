@@ -22,7 +22,8 @@
     </div>
     <div class="contactBox">
       <div class="form-container">
-        <form (ngSubmit)="sendMail()" [formGroup]="contactForm">
+        <form  action="https://formspree.io/f/myyqoebp"
+        method="POST" (ngSubmit)="sendMail()" [formGroup]="contactForm">
     
           <div class="inputContainer">
             <input [ngClass]="{

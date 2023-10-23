@@ -26,21 +26,11 @@ export class PortfolioComponent implements OnInit {
         "en": "A jump, run, and throw game based on an object-oriented approach. Help Pepe find coins and Tabasco salsa to fight against the crazy hen.",
         "de": "Jump-and-Run-Spiel auf Basis eines objektorientierten Ansatzes. Helfen Sie Pepe, Münzen und Tabasco Flaschen zu finden, um gegen die verrückte Henne zu kämpfen."
       },
-      "image": "ElPolloLoco.png",
+      "image": "elpolloloco.png",
       "url": "https://mayer-eduard.de/El-Pollo-Loco/",
       "github": "https://github.com/EduardMayer/El-Pollo-Loco"
     },
-    {
-      "name": "Ring of Fire",
-      "languages": "Angular | TypeScript | HTML | SCSS | Firebase",
-      "translations": {
-        "en": "A multiplayer game of the famous card game, which saves all data in Firebase.",
-        "de": "Ein Mehrspieler-Spiel des berühmten Kartenspiels, das alle Daten in Firebase speichert."
-      },
-      "image": "RingOfFire.png",
-      "url": "https://mayer-eduard.de/ringoffire/",
-      "github": "https://github.com/EduardMayer/ringoffire"
-    },
+    
   
   ];
 
