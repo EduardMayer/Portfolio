@@ -137,19 +137,53 @@
 .letsTalkButton a:hover {
   background-color: rgba(151, 71, 255, 1);
 }
-@media screen and (min-width: 1800px) {
-.skillIconContainer{
-  margin-left: 10%;
+
+@media screen and (min-width: 3000px) {
+  .skillIconContainer{
+    margin-left: 25%;
+  }
+  
+  .skillTextContainer{
+    margin-right: 25%;
+  }
+  
+  .skillBorderRight{
+    width: 22%;
+  }
+  
+
+}
+@media screen and (max-width: 3000px) {
+  .skillIconContainer{
+    margin-left: 20%;
+  }
+  
+  .skillTextContainer{
+    margin-right: 25%;
+  }
+  
+  .skillBorderRight{
+    width: 22%;
+  }
+  
+
 }
 
-.skillTextContainer{
-  margin-right: 10%;
+@media screen and (max-width: 2500px) {
+  .skillIconContainer{
+    margin-left: 10%;
+  }
+  
+  .skillTextContainer{
+    margin-right: 10%;
+  }
+  
+  .skillBorderRight{
+    width: 7%;
+  }
+
 }
 
-.skillBorderRight{
-  width: 7%;
-}
-}
 
 @media screen and (max-width: 970px) {
   .skillContainer {

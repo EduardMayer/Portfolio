@@ -201,7 +201,59 @@
         transform: translateX(0px);
     }
 }
-@media screen and (min-width: 1800px) {
+
+
+@media screen and (min-width: 3000px) {
+    .photo{
+        left: 25%;
+    }
+
+    .photoShadow{
+        left: 17%;
+    }
+
+    .headline{
+        right: 24.5%;
+    }
+
+    .contactBorderLine{
+        border: 2px solid rgb(151, 71, 255);
+        width: 25%;
+    }
+
+
+    .scrollDownContainer{
+        right: 23%;
+    }
+}
+
+
+
+@media screen and (max-width: 3000px) {
+    .photo{
+        left: 20%;
+    }
+
+    .photoShadow{
+        left: 12%;
+    }
+
+    .headline{
+        right: 19.5%;
+    }
+
+    .contactBorderLine{
+        border: 2px solid rgb(151, 71, 255);
+        width: 20%;
+    }
+
+    .scrollDownContainer{
+        right: 18%;
+    }
+}
+  
+  
+@media screen and (max-width: 2500px) {
     .photo{
         left: 10%;
     }

@@ -206,7 +206,20 @@ h1 {
   display: none;
 }
 
-@media screen and (min-width: 1800px) {
+@media screen and (min-width: 3000px) {
+  .navbarContainer {
+    padding: 37px 25%; 
+  }
+}
+
+@media screen and (max-width: 3000px) {
+  .navbarContainer {
+    padding: 37px 20%; 
+  }
+}
+
+
+@media screen and (max-width: 2500px) {
   .navbarContainer{
     padding: 37px 10%;
 }
