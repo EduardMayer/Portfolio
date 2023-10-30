@@ -102,10 +102,29 @@
 }
 
 
-        img {
-            top: 180px;
-            height: 750px;
-        }
+
+
+
+@media screen and (min-width: 3000px) {
+    .aboutMePhotoContainer{
+        width: 55%;
+    }
+
+    .aboutMeContainer{
+        padding-left: 23%;
+        
+    }
+
+    .aboutMeBorderRight{
+        padding-right: 60%;
+    }
+    
+
+}
+
+@media screen and (max-width: 3000px) {
+    .aboutMePhotoContainer{
+        width: 50%;
     }
 
     .aboutMeContainer{
