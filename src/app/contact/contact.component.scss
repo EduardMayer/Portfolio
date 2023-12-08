@@ -91,18 +91,17 @@
 
 .sendMessageButton:disabled,
 .sendMessageButton.disabled {
-  cursor: not-allowed; /* Ändert den Cursor */
-  background-color: rgba(128, 128, 128, 0.5); /* Ändert die Hintergrundfarbe */
-  color: rgba(255, 255, 255, 0.7); /* Ändert die Textfarbe */
-  border: 1px solid rgba(128, 128, 128, 0.5); /* Ändert den Border-Stil */
-  transform: none; /* Deaktiviert transform: scale */
+  cursor: not-allowed;
+  background-color: rgba(128, 128, 128, 0.5);
+  color: rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(128, 128, 128, 0.5); 
+  transform: none; 
 }
 
 /* CSS für Hover-Effekte */
 .sendMessageButton:not(:disabled):hover {
-  /* Hier können Sie den Hover-Effekt für nicht deaktivierte Buttons definieren */
   transform: scale(1.1);
-  background-color: rgba(151, 71, 255, 1); /* Beispiel-Hover-Farbe */
+  background-color: rgba(151, 71, 255, 1); 
 }
 
 

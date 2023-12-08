@@ -30,6 +30,18 @@ export class PortfolioComponent implements OnInit {
       "url": "https://mayer-eduard.de/El-Pollo-Loco/",
       "github": "https://github.com/EduardMayer/El-Pollo-Loco"
     },
+    {
+      "name": "Portfolio",
+      "languages": "Angular | JavaScript | HTML | CSS",
+      "translations": {
+        "en": "A website for showcasing my portfolio, developed using Angular, JavaScript, HTML, and CSS. Here, I present my projects and skills.",
+        "de": "Eine Website mit meinem Portfolio, entwickelt mit Angular, JavaScript, HTML und CSS. Hier präsentiere ich meine Projekte und Fähigkeiten."
+      },
+      "image": "portfolio.png",
+      "url": "https://mayer-eduard.de/",
+      "github": "https://github.com/EduardMayer/Portfolio"
+      
+    },
     
   
   ];
