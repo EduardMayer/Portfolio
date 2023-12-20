@@ -32,14 +32,26 @@ export class PortfolioComponent implements OnInit {
     },
     {
       "name": "Portfolio",
-      "languages": "Angular | JavaScript | HTML | CSS",
+      "languages": "Angular | TypeScript | HTML | SCSS",
       "translations": {
-        "en": "A website for showcasing my portfolio, developed using Angular, JavaScript, HTML, and CSS. Here, I present my projects and skills.",
-        "de": "Eine Website mit meinem Portfolio, entwickelt mit Angular, JavaScript, HTML und CSS. Hier präsentiere ich meine Projekte und Fähigkeiten."
+        "en": "A website for showcasing my portfolio, developed using Angular, TypeScript, HTML, and CSS. Here, I present my projects and skills.",
+        "de": "Eine Website mit meinem Portfolio, entwickelt mit Angular, TypeScript, HTML und CSS. Hier präsentiere ich meine Projekte und Fähigkeiten."
       },
       "image": "portfolio.png",
       "url": "https://mayer-eduard.de/",
       "github": "https://github.com/EduardMayer/Portfolio"
+      
+    },
+    {
+      "name": "DABubble",
+      "languages": "Angular | TypeScript | HTML | SCSS",
+      "translations": {
+        "en": "DABubble is a web application designed as a platform for communication and collaboration. Inspired by the functionality of Slack, it provides teams and groups with a seamless and user-friendly way to interact, exchange files, and collaborate on projects",
+        "de": "DABubble ist eine Webanwendung, die als Plattform für Kommunikation und Zusammenarbeit konzipiert ist. Inspiriert von der Funktionalität von Slack bietet sie Teams und Gruppen eine nahtlose und benutzerfreundliche Möglichkeit zur Interaktion, zum Austausch von Dateien und zur Zusammenarbeit an Projekten."
+      },
+      "image": "dabubble.png",
+      "url": "https://mayer-eduard.de/da-bubble/",
+      "github": "https://github.com/EduardMayer/DABubble"
       
     },
     

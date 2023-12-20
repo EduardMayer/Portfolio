@@ -71,8 +71,8 @@
 .sendMessageButton {
     display: flex;
     justify-content: center;
+    align-items: center;
     transition: transform 325ms ease-in-out;
-    padding: 15px 30px;
     border-radius: 10px;
     background-color: rgba(112, 230, 28, 1);
     color: white;
